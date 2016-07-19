@@ -1,0 +1,39 @@
+NOI DUNG DUOC LAM TRONG Ubuntu
+------------------------------------------------------------------
+CAI DAT GIT
+	- apt-get install git
+
+---------------------------------------------------------------------
+UPDATE THE LATEST VERSION OF GIT
+	- sudo apt-add-repository ppa:git-core/ppa
+	- sudo apt-get update
+	- sudo apt-get install git
+
+---------------------------------------------------------------------
+SETUP GIT FOR THE FIRST
+	- git config --global user.name "YOUR NAME"
+	- git config --global user.email "YOUR EMAIL ADDRESS"
+	 
+---------------------------------------------------------------------
+CONNECT GITHUB OVER SSH
+	----------------TAO KEYGEN--------------------
+	- ssh-keygen -t rsa -C 'trinhduc.thd@gmail.com'
+	
+	- Enter 2 lan	
+
+	------------VAO TAP TIN SSH-------------------
+	- cd .ssh
+
+	----------XEM NOI DUNG MA---------------------
+	- cat id_rsa.pub
+
+	---------SAU ENTER, XUAT HIEN MA KEYGEN, TA COPY & PASE VAO SSH TRONG TAI KHOAN GITHUB CUA BAN
+
+	-----------CHUNG THUC KHOA----------------------------
+	- ssh-add git_rsa
+
+	----------XEM KET QUA KET NOI VOI GITHUB----------------------
+	- ssh -T git@github.com
+
+	--------Neu THANH CONg se thong bao-------------
+	hi <ten_may_tinh_cua_ban>! you've........
