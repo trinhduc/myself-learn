@@ -1,2 +1,1 @@
-00h10 first times clone github project to my ubuntu
-
+# Writing anything that i learn about GIT
