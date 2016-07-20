@@ -1,0 +1,12 @@
+Có tí mánh về "gọi lại lệnh" đã học được, thấy rất đã, ghi vào đây:
+
+Ví dụ hôm trước đã chạy một lệnh + tham số + đường dẫn dài ngoằng, nay muốn chạy lại lệnh đó không lẽ cứ nhấn phím mũi tên hoài để tìm? Gõ $ history để tìm nó.
+
+Ví dụ thấy nó là:
+26  wget -drc http://openoffice-atl.osuosl.org/stable ... -US.tar.gz
+
+thì chỉ cần quất vào:
+$!26
+
+---------------------------------------------------------------------------
+

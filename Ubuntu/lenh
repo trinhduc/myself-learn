@@ -1,0 +1,9 @@
+more <ten-file/taptin> : xem noi dung cua file/taptin
+
+cal <co-the-co-them>	: xem lich
+
+gedit <ten-tap-tin>	: mo tap tin voi gedit
+
+sudo dpkg –-list	:kt nhung phan mem da duoc cai dat
+
+sudo <ten-chuong-trinh>	: chay mot chuong trinh
