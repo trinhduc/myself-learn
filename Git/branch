@@ -1,0 +1,13 @@
+------------------kiem tra co bao nhiu branch--------------------
+	- git branch
+
+------------------tao branch-------------------------------------
+	- git branch <ten_branch>
+
+-----------------chuyen sang branch khac------------------------
+	- git checkout <ten_branch_muon_chuyen>
+
+----------------see the last commit on each branch--------------
+	- git branch -v
+
+-----------
