@@ -7,3 +7,5 @@ gedit <ten-tap-tin>	: mo tap tin voi gedit
 sudo dpkg –-list	:kt nhung phan mem da duoc cai dat
 
 sudo <ten-chuong-trinh>	: chay mot chuong trinh
+
+pwd			: xem duong dan thu muc hien tai
