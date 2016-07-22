@@ -1,11 +1,24 @@
-more <ten-file/taptin> : xem noi dung cua file/taptin
+-------------------xem noi dung cua file/taptin----------------------
+	- more <ten-file/taptin> 
 
-cal <co-the-co-them>	: xem lich
+------------------xem lich-------------------------------------------
+	- cal <co-the-co-them>
 
-gedit <ten-tap-tin>	: mo tap tin voi gedit
+-------------------mo tap tin voi gedit------------------------------
+	- gedit <ten-tap-tin>
 
-sudo dpkg –-list	:kt nhung phan mem da duoc cai dat
+-------------------kt nhung phan mem da duoc cai dat-----------------	
+	- sudo dpkg –-list
 
-sudo <ten-chuong-trinh>	: chay mot chuong trinh
+-------------------chay mot chuong trinh-----------------------------
+	- sudo <ten-chuong-trinh>	
 
-pwd			: xem duong dan thu muc hien tai
+-------------------xem duong dan thu muc hien tai--------------------
+	- pwd
+
+-------------------GIAI NEN------------------------------------------
+	----------file zip---------------
+	- unzip <ten_file>.zip
+
+	----------NEN file zip-----------
+	- zip -r <ten_file>.zip <ten_file>
