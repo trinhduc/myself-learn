@@ -22,3 +22,6 @@
 
 	----------NEN file zip-----------
 	- zip -r <ten_file>.zip <ten_file>
+
+-------------------SETTING SYSTEM------------------------------------
+	- unity-control-center

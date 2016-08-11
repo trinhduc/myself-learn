@@ -1,0 +1,27 @@
+-------------------xem noi dung cua file/taptin----------------------
+	- more <ten-file/taptin> 
+
+------------------xem lich-------------------------------------------
+	- cal <co-the-co-them>
+
+-------------------mo tap tin voi gedit------------------------------
+	- gedit <ten-tap-tin>
+
+-------------------kt nhung phan mem da duoc cai dat-----------------	
+	- sudo dpkg –-list
+
+-------------------chay mot chuong trinh-----------------------------
+	- sudo <ten-chuong-trinh>	
+
+-------------------xem duong dan thu muc hien tai--------------------
+	- pwd
+
+-------------------GIAI NEN------------------------------------------
+	----------file zip---------------
+	- unzip <ten_file>.zip
+
+	----------NEN file zip-----------
+	- zip -r <ten_file>.zip <ten_file>
+
+-------------------SETTING SYSTEM------------------------------------
+	- unity-control-center
