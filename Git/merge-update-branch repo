@@ -1,0 +1,489 @@
+ll 1.5.2-git\ [10,5 git]
+Get:18 git://vn.archive.ubuntu.com/ubuntu/ trusty-updates/main python-urllib3-whl all 1.7.1-1ubuntu4 [64,0 kB]
+Get:19 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/main python-requests-whl all 2.2.1-1ubuntu0.3 [227 kB]
+Get:20 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/main python-setuptools-whl all 3.3-1ubuntu2 [244 kB]
+Get:21 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/universe python-pip-whl all 1.5.4-1ubuntu4 [111 kB]
+Get:22 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/main python-setuptools all 3.3-1ubuntu2 [230 kB]
+Get:23 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/universe python-pip all 1.5.4-1ubuntu4 [97,3 kB]
+Get:24 http://vn.archive.ubuntu.com/ubuntu/ trusty-updates/main python-wheel all 0.24.0-1~ubuntu1 [44,7 kB]
+Fetched 21,9 MB in 1min 12s (301 kB/s)                                         
+Selecting previously unselected package libstdc++-4.8-dev:amd64.
+(Reading database ... 187869 files and directories currently installed.)
+Preparing to unpack .../libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libstdc++-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package g++-4.8.
+Preparing to unpack .../g++-4.8_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking g++-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../g++_4%3a4.8.2-1ubuntu6_amd64.deb ...
+Unpacking g++ (4:4.8.2-1ubuntu6) ...
+Preparing to unpack .../libdpkg-perl_1.17.5ubuntu5.7_all.deb ...
+Unpacking libdpkg-perl (1.17.5ubuntu5.7) over (1.17.5ubuntu5.5) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../dpkg-dev_1.17.5ubuntu5.7_all.deb ...
+Unpacking dpkg-dev (1.17.5ubuntu5.7) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../build-essential_11.6ubuntu6_amd64.deb ...
+Unpacking build-essential (11.6ubuntu6) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../libalgorithm-diff-perl_1.19.02-3_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.02-3) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../libalgorithm-diff-xs-perl_0.04-2build4_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-2build4) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../libalgorithm-merge-perl_0.08-2_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-2) ...
+Selecting previously unselected package python-chardet-whl.
+Preparing to unpack .../python-chardet-whl_2.2.1-2~ubuntu1_all.deb ...
+Unpacking python-chardet-whl (2.2.1-2~ubuntu1) ...
+Selecting previously unselected package python-colorama.
+Preparing to unpack .../python-colorama_0.2.5-0.1ubuntu2_all.deb ...
+Unpacking python-colorama (0.2.5-0.1ubuntu2) ...
+Selecting previously unselected package python-colorama-whl.
+Preparing to unpack .../python-colorama-whl_0.2.5-0.1ubuntu2_all.deb ...
+Unpacking python-colorama-whl (0.2.5-0.1ubuntu2) ...
+Selecting previously unselected package python-distlib.
+Preparing to unpack .../python-distlib_0.1.8-1ubuntu1_all.deb ...
+Unpacking python-distlib (0.1.8-1ubuntu1) ...
+Selecting previously unselected package python-distlib-whl.
+Preparing to unpack .../python-distlib-whl_0.1.8-1ubuntu1_all.deb ...
+Unpacking python-distlib-whl (0.1.8-1ubuntu1) ...
+Selecting previously unselected package python-html5lib.
+Preparing to unpack .../python-html5lib_0.999-3~ubuntu1_all.deb ...
+Unpacking python-html5lib (0.999-3~ubuntu1) ...
+Selecting previously unselected package python-html5lib-whl.
+Preparing to unpack .../python-html5lib-whl_0.999-3~ubuntu1_all.deb ...
+Unpacking python-html5lib-whl (0.999-3~ubuntu1) ...
+Selecting previously unselected package python-six-whl.
+Preparing to unpack .../python-six-whl_1.5.2-1ubuntu1_all.deb ...
+Unpacking python-six-whl (1.5.2-1ubuntu1) ...
+Selecting previously unselected package python-urllib3-whl.
+Preparing to unpack .../python-urllib3-whl_1.7.1-1ubuntu4_all.deb ...
+Unpacking python-urllib3-whl (1.7.1-1ubuntu4) ...
+Selecting previously unselected package python-requests-whl.
+Preparing to unpack .../python-requests-whl_2.2.1-1ubuntu0.3_all.deb ...
+Unpacking python-requests-whl (2.2.1-1ubuntu0.3) ...
+Selecting previously unselected package python-setuptools-whl.
+Preparing to unpack .../python-setuptools-whl_3.3-1ubuntu2_all.deb ...
+Unpacking python-setuptools-whl (3.3-1ubuntu2) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_1.5.4-1ubuntu4_all.deb ...
+Unpacking python-pip-whl (1.5.4-1ubuntu4) ...
+Selecting previously unselected package python-setuptools.
+Preparing to unpack .../python-setuptools_3.3-1ubuntu2_all.deb ...
+Unpacking python-setuptools (3.3-1ubuntu2) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_1.5.4-1ubuntu4_all.deb ...
+Unpacking python-pip (1.5.4-1ubuntu4) ...
+Selecting previously unselected package python-wheel.
+Preparing to unpack .../python-wheel_0.24.0-1~ubuntu1_all.deb ...
+Unpacking python-wheel (0.24.0-1~ubuntu1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libstdc++-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up g++-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up g++ (4:4.8.2-1ubuntu6) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up libdpkg-perl (1.17.5ubuntu5.7) ...
+Setting up dpkg-dev (1.17.5ubuntu5.7) ...
+Setting up build-essential (11.6ubuntu6) ...
+Setting up libalgorithm-diff-perl (1.19.02-3) ...
+Setting up libalgorithm-diff-xs-perl (0.04-2build4) ...
+Setting up libalgorithm-merge-perl (0.08-2) ...
+Setting up python-chardet-whl (2.2.1-2~ubuntu1) ...
+Setting up python-colorama (0.2.5-0.1ubuntu2) ...
+Setting up python-colorama-whl (0.2.5-0.1ubuntu2) ...
+Setting up python-distlib (0.1.8-1ubuntu1) ...
+Setting up python-distlib-whl (0.1.8-1ubuntu1) ...
+Setting up python-html5lib (0.999-3~ubuntu1) ...
+Setting up python-html5lib-whl (0.999-3~ubuntu1) ...
+Setting up python-six-whl (1.5.2-1ubuntu1) ...
+Setting up python-urllib3-whl (1.7.1-1ubuntu4) ...
+Setting up python-requests-whl (2.2.1-1ubuntu0.3) ...
+Setting up python-setuptools-whl (3.3-1ubuntu2) ...
+Setting up python-pip-whl (1.5.4-1ubuntu4) ...
+Setting up python-setuptools (3.3-1ubuntu2) ...
+Setting up python-pip (1.5.4-1ubuntu4) ...
+Setting up python-wheel (0.24.0-1~ubuntu1) ...
+trinhduc@trinhduc-HP-ubuntu:~$ pip install kicost
+Downloading/unpacking kicost
+  Downloading kicost-0.1.27.zip (452kB): 452kB downloaded
+  Running setup.py (path:/tmp/pip_build_trinhduc/kicost/setup.py) egg_info for package kicost
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+Downloading/unpacking beautifulsoup4>=4.3.2,<4.5.0 (from kicost)
+  Downloading beautifulsoup4-4.4.1-py2-none-any.whl (81kB): 81kB downloaded
+Downloading/unpacking XlsxWriter>=0.7.3 (from kicost)
+  Downloading XlsxWriter-0.9.3-py2.py3-none-any.whl (136kB): 136kB downloaded
+Downloading/unpacking future>=0.15.0 (from kicost)
+  Downloading future-0.15.2.tar.gz (1.6MB): 1.6MB downloaded
+  Running setup.py (path:/tmp/pip_build_trinhduc/future/setup.py) egg_info for package future
+    
+    warning: no files found matching '*.au' under directory 'tests'
+    warning: no files found matching '*.gif' under directory 'tests'
+    warning: no files found matching '*.txt' under directory 'tests'
+Requirement already satisfied (use --upgrade to upgrade): lxml>=3.3.3 in /usr/lib/python2.7/dist-packages (from kicost)
+Downloading/unpacking yattag>=1.5.2 (from kicost)
+  Downloading yattag-1.6.0.tar.gz
+  Running setup.py (path:/tmp/pip_build_trinhduc/yattag/setup.py) egg_info for package yattag
+    
+Downloading/unpacking tqdm>=4.4.0 (from kicost)
+  Downloading tqdm-4.8.3-py2.py3-none-any.whl (42kB): 42kB downloaded
+Installing collected packages: kicost, beautifulsoup4, XlsxWriter, future, yattag, tqdm
+  Running setup.py install for kicost
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+    error: could not create '/usr/local/lib/python2.7/dist-packages/tests': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_trinhduc/kicost/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-xQn2oq-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/tests
+
+copying tests/__init__.py -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/test_kicost.py -> build/lib.linux-x86_64-2.7/tests
+
+creating build/lib.linux-x86_64-2.7/kicost
+
+copying kicost/__init__.py -> build/lib.linux-x86_64-2.7/kicost
+
+copying kicost/__main__.py -> build/lib.linux-x86_64-2.7/kicost
+
+copying kicost/kicost.py -> build/lib.linux-x86_64-2.7/kicost
+
+running egg_info
+
+writing requirements to kicost.egg-info/requires.txt
+
+writing kicost.egg-info/PKG-INFO
+
+writing top-level names to kicost.egg-info/top_level.txt
+
+writing dependency_links to kicost.egg-info/dependency_links.txt
+
+writing entry points to kicost.egg-info/entry_points.txt
+
+warning: manifest_maker: standard file '-c' not found
+
+
+
+reading manifest file 'kicost.egg-info/SOURCES.txt'
+
+reading manifest template 'MANIFEST.in'
+
+warning: no previously-included files matching '__pycache__' found under directory '*'
+
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+
+writing manifest file 'kicost.egg-info/SOURCES.txt'
+
+copying tests/BoulderCreekMotherBoard.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/BoulderCreekMotherBoard.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/Indium_X2.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/Indium_X2.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/LedTest.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/RPi-Test.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/RPi-Test.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/Receiver_1W.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-Hat-old.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-Hat.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-Hat.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC-cache.lib -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC.kicad_pcb -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC.pro -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC.sch -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-QuadDAC.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/StickIt-RotaryEncoder.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/TestParts.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/TestParts.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/fitting_test.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/fitting_test.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/local_Indium_X2.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/test.xlsx -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/test.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/test2.xml -> build/lib.linux-x86_64-2.7/tests
+
+copying tests/test3.xml -> build/lib.linux-x86_64-2.7/tests
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/tests
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/tests': Permission denied
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_trinhduc/kicost/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-xQn2oq-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_trinhduc/kicost
+Storing debug log for failure in /home/trinhduc/.pip/pip.log
+trinhduc@trinhduc-HP-ubuntu:~$ sudo pip install kicost
+Downloading/unpacking kicost
+  Downloading kicost-0.1.27.zip (452kB): 452kB downloaded
+  Running setup.py (path:/tmp/pip_build_root/kicost/setup.py) egg_info for package kicost
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+Downloading/unpacking beautifulsoup4>=4.3.2,<4.5.0 (from kicost)
+  Downloading beautifulsoup4-4.4.1-py2-none-any.whl (81kB): 81kB downloaded
+Downloading/unpacking XlsxWriter>=0.7.3 (from kicost)
+  Downloading XlsxWriter-0.9.3-py2.py3-none-any.whl (136kB): 136kB downloaded
+Downloading/unpacking future>=0.15.0 (from kicost)
+  Downloading future-0.15.2.tar.gz (1.6MB): 1.6MB downloaded
+  Running setup.py (path:/tmp/pip_build_root/future/setup.py) egg_info for package future
+    
+    warning: no files found matching '*.au' under directory 'tests'
+    warning: no files found matching '*.gif' under directory 'tests'
+    warning: no files found matching '*.txt' under directory 'tests'
+Requirement already satisfied (use --upgrade to upgrade): lxml>=3.3.3 in /usr/lib/python2.7/dist-packages (from kicost)
+Downloading/unpacking yattag>=1.5.2 (from kicost)
+  Downloading yattag-1.6.0.tar.gz
+  Running setup.py (path:/tmp/pip_build_root/yattag/setup.py) egg_info for package yattag
+    
+Downloading/unpacking tqdm>=4.4.0 (from kicost)
+  Downloading tqdm-4.8.3-py2.py3-none-any.whl (42kB): 42kB downloaded
+Installing collected packages: kicost, beautifulsoup4, XlsxWriter, future, yattag, tqdm
+  Running setup.py install for kicost
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+    Installing kicost script to /usr/local/bin
+  Running setup.py install for future
+    
+    warning: no files found matching '*.au' under directory 'tests'
+    warning: no files found matching '*.gif' under directory 'tests'
+    warning: no files found matching '*.txt' under directory 'tests'
+    Installing pasteurize script to /usr/local/bin
+    Installing futurize script to /usr/local/bin
+  Running setup.py install for yattag
+    
+Successfully installed kicost beautifulsoup4 XlsxWriter future yattag tqdm
+Cleaning up...
+trinhduc@trinhduc-HP-ubuntu:~$ cd 2016/8/iot-core-hw/
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ kicost -i iot-core-hw.xml
+Traceback (most recent call last):
+  File "/usr/local/bin/kicost", line 9, in <module>
+    load_entry_point('kicost==0.1.27', 'console_scripts', 'kicost')()
+  File "/usr/local/lib/python2.7/dist-packages/kicost/__main__.py", line 149, in main
+    args.input = open(args.input)
+IOError: [Errno 2] No such file or directory: 'iot-core-hw.xml'
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ ls
+assets        iot-core-cache.lib      iot-core.net  lib
+fp-lib-table  iot-core.csv            iot-core.pro  README.md
+iot-core      iot-core.kicad_pcb      iot-core.sch  README.md~
+iot-core.bak  iot-core.kicad_pcb-bak  iot-core.xml
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ kicost -i iot-core.xml
+Progress:   0%|                                        | 0/22 [00:00<?, ?part/s]No 'newark#' or 'manf#' field: cannot lookup part ['Y1'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['C13', 'C12', 'C11', 'C10', 'C16', 'C8', 'C1', 'C7', 'C5'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['R5', 'R6', 'R1'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['R8'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['Y1'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['C13', 'C12', 'C11', 'C10', 'C16', 'C8', 'C1', 'C7', 'C5'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['P7', 'P6'] at newark
+No 'mouser#' or 'manf#' field: cannot lookup part ['C13', 'C12', 'C11', 'C10', 'C16', 'C8', 'C1', 'C7', 'C5'] at mouser
+No 'newark#' or 'manf#' field: cannot lookup part ['R7', 'R12', 'R10', 'R11', 'R9', 'R13'] at newark
+No 'mouser#' or 'manf#' field: cannot lookup part ['Y1'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['R5', 'R6', 'R1'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['P3', 'P5'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['R8'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['R5', 'R6', 'R1'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['R8'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['P7', 'P6'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['R7', 'R12', 'R10', 'R11', 'R9', 'R13'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['P7', 'P6'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['R7', 'R12', 'R10', 'R11', 'R9', 'R13'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['P3', 'P5'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['P3', 'P5'] at mouser
+No 'newark#' or 'manf#' field: cannot lookup part ['C17', 'C2', 'C4'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['D1'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['D1'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['C15', 'C14'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['D1'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['D1'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['R3'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['U1'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['R4', 'R2'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['P1'] at newark
+No 'mouser#' or 'manf#' field: cannot lookup part ['D1'] at mouser
+No 'newark#' or 'manf#' field: cannot lookup part ['U2'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['C17', 'C2', 'C4'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['P4'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['C9', 'C3', 'C6'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['SW1'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['C9', 'C3', 'C6'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['U3'] at newark
+No 'newark#' or 'manf#' field: cannot lookup part ['P10', 'P11', 'P8', 'P9'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['R3'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['C9', 'C3', 'C6'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['R3'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['U1'] at digikey
+No 'newark#' or 'manf#' field: cannot lookup part ['SW2'] at newark
+No 'digikey#' or 'manf#' field: cannot lookup part ['C15', 'C14'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['U3'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['SW1'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['P10', 'P11', 'P8', 'P9'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['C15', 'C14'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['SW1'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['U3'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['R4', 'R2'] at digikey
+No 'digikey#' or 'manf#' field: cannot lookup part ['SW2'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['C17', 'C2', 'C4'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['U2'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['P10', 'P11', 'P8', 'P9'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['SW2'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['U2'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['P1'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['R4', 'R2'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['P4'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['D1'] at mouser
+No 'newark#' or 'manf#' field: cannot lookup part ['D2'] at newark
+No 'mouser#' or 'manf#' field: cannot lookup part ['U1'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['P1'] at mouser
+No 'mouser#' or 'manf#' field: cannot lookup part ['P4'] at mouser
+No 'digikey#' or 'manf#' field: cannot lookup part ['D2'] at digikey
+No 'mouser#' or 'manf#' field: cannot lookup part ['D2'] at mouser
+Progress: 100%|██████████████████████████████| 22/22 [00:00<00:00, 126.89part/s]
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.~lock.iot-core.xlsx#
+	iot-core
+	iot-core.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.~lock.iot-core.xlsx#
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	_saved_iot-core.sch
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+
+
+
+
+===============================check how many branch remote==========================================
+
+
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git remote -v
+origin	git@github.com:trinhduc/iot-core-hw.git (fetch)
+origin	git@github.com:trinhduc/iot-core-hw.git (push)
+upstream	git@github.com:trinhduc/iot-core-hw.git (fetch)
+upstream	git@github.com:trinhduc/iot-core-hw.git (push)
+
+=====================================================================================================================================
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git remote set-url upstream https://github.com/genuine-engineering/iot-core-hw.git
+
+
+===============================check how many branch remote==========================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git remote -v
+origin	git@github.com:trinhduc/iot-core-hw.git (fetch)
+origin	git@github.com:trinhduc/iot-core-hw.git (push)
+upstream	https://github.com/genuine-engineering/iot-core-hw.git (fetch)
+upstream	https://github.com/genuine-engineering/iot-core-hw.git (push)
+
+======================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git pull upstream
+remote: Counting objects: 13, done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 13 (delta 6), reused 9 (delta 2), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From https://github.com/genuine-engineering/iot-core-hw
+   7fcc27e..07af8a5  master     -> upstream/master
+You asked to pull from the remote 'upstream', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+========================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git branch
+* master
+
+========================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git merge upstream/master
+Updating d72e872..07af8a5
+Fast-forward
+ README.md    | 61 ++++++++----------------------------------------------------
+ fp-lib-table |  2 --
+ 2 files changed, 8 insertions(+), 55 deletions(-)
+ delete mode 100644 fp-lib-table
+
+========================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+========================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git add .
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git commit -m "add bomlist"
+[master ecd6b3c] add bomlist
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+========================================================================================================================================
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ git push --all
+Counting objects: 16, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 3.37 KiB | 0 bytes/s, done.
+Total 16 (delta 7), reused 0 (delta 0)
+To git@github.com:trinhduc/iot-core-hw.git
+   d72e872..ecd6b3c  master -> master
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/iot-core-hw$ ^C
