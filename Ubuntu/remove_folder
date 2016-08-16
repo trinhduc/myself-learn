@@ -1,0 +1,4 @@
+rm -r -f <name_folder>
+
+=============if you want rm a file===========
+rm -r <name_file>
