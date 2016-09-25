@@ -1,0 +1,54 @@
+f you are running Ubuntu based Linux distribution, you can install it using this command:
+
+sudo apt-get install youtube-dl
+
+For any Linux distribution, you can quickly install youtube-dl on your system through the command line interface with:
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O/usr/local/bin/youtube-dl
+
+After fetching the file, you need to set a executable permission on the script to execute properly.
+
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+Use YouTube-DL to Download Videos:
+
+To download a video file, simply run the following command. Where “VIDEO_URL” is the url of the video that you want to download.
+
+youtube-dl VIDEO_URL
+
+Download YouTube Videos in Multiple Formats:
+
+These days YouTube videos  have different resolutions, you first need to check available video formats of a given YouTube video. For that run youtube-dl with “-F” option. It will show you a list of available formats.
+
+youtube-dl -F http://www.youtube.com/watch?v=BlXaGWbFVKY
+
+It’s output will be like:
+
+     Setting language
+    BlXaGWbFVKY: Downloading video webpage
+    BlXaGWbFVKY: Downloading video info webpage
+    BlXaGWbFVKY: Extracting video information
+    Available formats:
+    37      :       mp4     [1080×1920] 46      :       webm    [1080×1920] 22      :       mp4     [720×1280] 45      :       webm    [720×1280] 35      :       flv     [480×854] 44      :       webm    [480×854] 34      :       flv     [360×640] 18      :       mp4     [360×640] 43      :       webm    [360×640] 5       :       flv     [240×400] 17      :       mp4     [144×176]
+
+Now among the available video formats, choose one that you like. For example, if you want to download it in MP4 version, you should use:
+
+youtube-dl -f 17 http://www.youtube.com/watch?v=BlXaGWbFVKY
+
+Download subtitles of videos using youtube-dl
+
+First check if there are subtitles available for the video. To list all subs for a video, use the command beelow:
+
+youtube-dl --list-subs https://www.youtube.com/watch?v=Ye8mB6VsUHw
+
+To download all subs, but not the video:
+
+youtube-dl --all-subs --skip-download https://www.youtube.com/watch?v=Ye8mB6VsUHw
+
+Download entire playlist
+
+To download a playlist, simply run the following command. Where “playlist_url” is the url of the playlist that ou want to download.
+
+youtube-dl -cit playlist_url
+
+youtube-dl is a versatile command line tool and provides a number of functionalities. No wonder it is such a popular command line tool.

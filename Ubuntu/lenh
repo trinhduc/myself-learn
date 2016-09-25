@@ -25,3 +25,18 @@
 
 -------------------SETTING SYSTEM------------------------------------
 	- unity-control-center
+
+-----------------------thay thoi kich thuoc image---------------
+sudo apt-get install imagemagick
+mogrify -resize 320x240 Image.png 
+mogrify -resize 50% Image.png
+mogrify -resize 320x240 *.jpg
+
+f you wanna try GUI:
+
+Install nautilus-image-converter
+
+sudo apt-get install nautilus-image-converter
+----------------------------------------------------------------------------
+----------------------------xoa folder over root----------------------------
+sudo gksu nautilus

@@ -1,0 +1,136 @@
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git remote set-url origin git@github.com:trinhduc/esp8266.vn-1.git
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git pull
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:trinhduc/esp8266.vn-1
+ + a21b4ad...9d3dbde master     -> origin/master  (forced update)
+fatal: refusing to merge unrelated histories
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   docs/Chip/3D.md
+	deleted:    "docs/Chip/H\303\254nh \341\272\243nh.md"
+	deleted:    "docs/Chip/S\306\241 \304\221\341\273\223 ch\303\242n.md"
+	modified:   "docs/Chip/T\303\255nh n\304\203ng.md"
+	deleted:    "docs/Module/T\303\255nh n\304\203ng.md"
+	deleted:    docs/assets/img/chip_esp8266_1500x1500.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	"docs/C\303\241c module/"
+	docs/assets/img/ESP-01-pin.png
+	docs/assets/img/ESP-01.jpg
+	docs/assets/img/ESP-02-pinout.jpg
+	docs/assets/img/ESP-02.jpg
+	docs/assets/img/ESP-03-pinout.jpg
+	docs/assets/img/ESP-03.jpg
+	docs/assets/img/ESP-04-pinout.jpg
+	docs/assets/img/ESP-04.jpg
+	docs/assets/img/ESP-05-pinout.jpg
+	docs/assets/img/ESP-05.jpg
+	docs/assets/img/ESP-06-pin.png
+	docs/assets/img/ESP-06-pinout.png
+	docs/assets/img/ESP-06.jpg
+	docs/assets/img/ESP-07-pinout.png
+	docs/assets/img/ESP-07.jpg
+	docs/assets/img/ESP-08.jpg
+	docs/assets/img/ESP-09-pinout.png
+	docs/assets/img/ESP-09.jpg
+	docs/assets/img/ESP-10-pinout.png
+	docs/assets/img/ESP-10.jpg
+	docs/assets/img/ESP-11-pinout.jpg
+	docs/assets/img/ESP-11.jpg
+	docs/assets/img/ESP-12-pinout.jpeg
+	docs/assets/img/ESP-12.jpeg
+	docs/assets/img/ESP-12E-pinout.jpg
+	docs/assets/img/ESP-12E.jpg
+	docs/assets/img/ESP-12e-pin.png
+	docs/assets/img/ESP-13-pinout.png
+	docs/assets/img/ESP-13.jpg
+	docs/assets/img/ESP-14.jpg
+	docs/assets/img/ESP-WROOM-02-pin.png
+	docs/assets/img/ESP-WROOM-02.jpg
+	docs/assets/img/ESP8266EX-3D.wrl
+	docs/assets/img/Esp8266ex-pin.jpg
+	docs/assets/img/WT8266-S1-pinout.jpg
+	docs/assets/img/WT8266-S1.jpg
+	docs/assets/img/esp-03-pin.png
+	docs/assets/img/esp8266-chip-pin.png
+	docs/assets/img/esp8266ex-chip.jpg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git add .
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git commit -m "update"
+[master 742d291] update
+ 45 files changed, 2371 insertions(+), 6 deletions(-)
+ delete mode 100644 "docs/Chip/H\303\254nh \341\272\243nh.md"
+ delete mode 100644 "docs/Chip/S\306\241 \304\221\341\273\223 ch\303\242n.md"
+ rename "docs/Module/T\303\255nh n\304\203ng.md" => "docs/C\303\241c module/T\303\255nh n\304\203ng.md" (100%)
+ create mode 100644 docs/assets/img/ESP-01-pin.png
+ create mode 100644 docs/assets/img/ESP-01.jpg
+ create mode 100644 docs/assets/img/ESP-02-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-02.jpg
+ create mode 100644 docs/assets/img/ESP-03-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-03.jpg
+ create mode 100644 docs/assets/img/ESP-04-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-04.jpg
+ create mode 100644 docs/assets/img/ESP-05-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-05.jpg
+ create mode 100644 docs/assets/img/ESP-06-pin.png
+ create mode 100644 docs/assets/img/ESP-06-pinout.png
+ create mode 100644 docs/assets/img/ESP-06.jpg
+ create mode 100644 docs/assets/img/ESP-07-pinout.png
+ create mode 100644 docs/assets/img/ESP-07.jpg
+ create mode 100644 docs/assets/img/ESP-08.jpg
+ create mode 100644 docs/assets/img/ESP-09-pinout.png
+ create mode 100644 docs/assets/img/ESP-09.jpg
+ create mode 100644 docs/assets/img/ESP-10-pinout.png
+ create mode 100644 docs/assets/img/ESP-10.jpg
+ create mode 100644 docs/assets/img/ESP-11-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-11.jpg
+ create mode 100644 docs/assets/img/ESP-12-pinout.jpeg
+ create mode 100644 docs/assets/img/ESP-12.jpeg
+ create mode 100644 docs/assets/img/ESP-12E-pinout.jpg
+ create mode 100644 docs/assets/img/ESP-12E.jpg
+ create mode 100644 docs/assets/img/ESP-12e-pin.png
+ create mode 100644 docs/assets/img/ESP-13-pinout.png
+ create mode 100644 docs/assets/img/ESP-13.jpg
+ create mode 100644 docs/assets/img/ESP-14.jpg
+ create mode 100644 docs/assets/img/ESP-WROOM-02-pin.png
+ create mode 100644 docs/assets/img/ESP-WROOM-02.jpg
+ create mode 100644 docs/assets/img/ESP8266EX-3D.wrl
+ create mode 100644 docs/assets/img/Esp8266ex-pin.jpg
+ create mode 100644 docs/assets/img/WT8266-S1-pinout.jpg
+ create mode 100644 docs/assets/img/WT8266-S1.jpg
+ delete mode 100644 docs/assets/img/chip_esp8266_1500x1500.jpg
+ create mode 100644 docs/assets/img/esp-03-pin.png
+ create mode 100644 docs/assets/img/esp8266-chip-pin.png
+ create mode 100644 docs/assets/img/esp8266ex-chip.jpg
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git push 
+To github.com:trinhduc/esp8266.vn-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:trinhduc/esp8266.vn-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ git push --force
+Counting objects: 105, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (85/85), done.
+Writing objects: 100% (105/105), 4.61 MiB | 472.00 KiB/s, done.
+Total 105 (delta 10), reused 46 (delta 9)
+remote: Resolving deltas: 100% (10/10), done.
+To github.com:trinhduc/esp8266.vn-1.git
+ + 9d3dbde...742d291 master -> master (forced update)
+trinhduc@trinhduc-HP-ubuntu:~/2016/esp8266.vn$ 
+

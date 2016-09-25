@@ -1,0 +1,59 @@
+ 1907  mkdir esp8266
+ 1908  SUDO mkdir esp8266
+ 1909  sudo mkdir esp8266
+ 1910  chmod 0777 esp8266
+ 1911  sudo chmod 0777 esp8266
+ 1912  cd esp8266
+ 1913  mkdir sdk
+ 1914  mkdir compiler
+ 1915  ls
+ 1916  cd compiler
+ 1917  git clone -b lx106 git://github.com/jcmvbkbc/crosstool-NG.git 
+ 1918  cd crosstool-NG
+ 1919  sed -i.bak '1s/^/gettext=\'$'\n/' crosstool-NG/kconfig/Makefile
+ 1920  ./bootstrap && ./configure --prefix=`pwd` && make && make install
+ 1921  ./ct-ng xtensa-lx106-elf
+ 1922  ./ct-ng build
+ 1923  echo $PATH
+ 1924  cd /home/trinhduc/esp-open-sdk/xtensa-lx106-elf/bin:/home/trinhduc/esp-open-sdk/xtensa-lx106-elf/bin
+ 1925  cd /home/trinhduc/esp-open-sdk/xtensa-lx106-elf/bin
+ 1926  cd ..
+ 1927  cd builds/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  cd cro*
+ 1932  cd cross*
+ 1933  ls
+ 1934  cd /opt/esp8266
+ 1935  ls
+ 1936  cd compiler
+ 1937  ls
+ 1938  cd cro*
+ 1939  ./ct-ng build
+ 1940  export PATH=$PATH:/tools/esp8266/compiler/crosstool-NG/builds/xtensa-lx106-elf/bin
+ 1941  source ~/.bash_profile
+ 1942  xtensa-lx106-elf-gcc -v
+ 1943  cd /tools/esp8266
+ 1944  cd ..
+ 1945  ls
+ 1946  cd sdk/
+ 1947  ls
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+touch user/user_main.c
+xtensa-lx106-elf-gcc -Iuser -Idriver -Imqtt -Imodules -Iuser/include -Idriver/include -Imqtt/include -Imodules/include -Iinclude -I/tools/esp8266/sdk/ESP8266_NONOS_SDK/include -I/tools/esp8266/sdk/ESP8266_NONOS_SDK/include/json -g -Wpointer-arith -Wundef -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -ffunction-sections -fdata-sections -fno-builtin-printf -DICACHE_FLASH -DBUID_TIME=\"2016-Th09-24_21:38:31_ICT\" -DMQTT_DEBUG_ON -DDEBUG_ON -D_STDINT_H  -c user/rfinit.c -o build/user/rfinit.o
+user/rfinit.c:12:21: fatal error: ets_sys.h: No such file or directory
+ #include "ets_sys.h"
+                     ^
+compilation terminated.
+make: *** [build/user/rfinit.o] Error 1
+
+

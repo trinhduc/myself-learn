@@ -1,0 +1,6 @@
+link :
+http://askubuntu.com/questions/377778/how-to-add-users-to-vboxusers
+--------------
+
+
+sudo usermod -a -G vboxsf your_user_name
