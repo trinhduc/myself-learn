@@ -1,0 +1,42 @@
+trinhduc@trinhduc-HP-ubuntu:~$ cd 2016/8/
+trinhduc@trinhduc-HP-ubuntu:~/2016/8$ git clone git@github.com:trinhduc/wifi-iot-core.git
+Cloning into 'wifi-iot-core'...
+remote: Counting objects: 57, done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 57 (delta 14), reused 57 (delta 14), pack-reused 0
+Receiving objects: 100% (57/57), 366.52 KiB | 278.00 KiB/s, done.
+Resolving deltas: 100% (14/14), done.
+Checking connectivity... done.
+trinhduc@trinhduc-HP-ubuntu:~/2016/8$ subl
+trinhduc@trinhduc-HP-ubuntu:~/2016/8$ mkdocs serve
+INFO    -  Building documentation... 
+
+Config file '/home/trinhduc/2016/8/mkdocs.yml' does not exist.
+trinhduc@trinhduc-HP-ubuntu:~/2016/8$ cd wi*core
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core$ mkdocs serve
+INFO    -  Building documentation... 
+INFO    -  Cleaning site directory 
+[I 160823 15:33:09 server:281] Serving on http://127.0.0.1:8000
+[I 160823 15:33:09 handlers:59] Start watching changes
+[I 160823 15:33:09 handlers:61] Start detecting changes
+[I 160823 15:33:14 handlers:132] Browser Connected: http://127.0.0.1:8000/
+[I 160823 15:33:16 handlers:132] Browser Connected: http://127.0.0.1:8000/
+^C[I 160823 15:33:29 server:301] Shutting down...
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core$ git add . 
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core$ git commit -m "remove word"
+[master 4ba4fe1] remove word
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core$ git push --all
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 381 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To git@github.com:trinhduc/wifi-iot-core.git
+   c8202c9..4ba4fe1  master -> master
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core$ mkdocs gh-deploy --clean
+INFO    -  Cleaning site directory 
+INFO    -  Building documentation to directory: /home/trinhduc/2016/8/wifi-iot-core/site 
+INFO    -  Copying '/home/trinhduc/2016/8/wifi-iot-core/site' to 'gh-pages' branch and pushing to GitHub. 
+INFO    -  Your documentation should shortly be available at: http://trinhduc.github.io/wifi-iot-core 

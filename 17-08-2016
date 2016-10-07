@@ -1,0 +1,5 @@
+# My first PCB (https://github.com/genuine-engineering/wifi-iot-core-hw)
+	- Pin resistor (R) is small length for handmade		==>>> Just make pin R big, pad need to have 0.8mm to 1mm length. (pad de han R qua nho de han tay, nen can phai lam to them)
+	- Maybe make to have the measurement short between the components. (co the sap xep linh kien gan hon nua)
+	- Khi han thi NEN han KHOI NGUON TRUOC va CHECKING co on dinh khong.
+	

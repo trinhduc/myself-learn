@@ -1,0 +1,270 @@
+trinhduc@trinhduc-HP-ubuntu:~$ cd 2016/8/w
+bash: cd: 2016/8/w: No such file or directory
+trinhduc@trinhduc-HP-ubuntu:~$ cd 2016/8/wifi-iot-core-hw/
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    assets/gerber.zip
+	deleted:    lib/Buttons_Switches_SMD.3dshapes/device.lib
+	deleted:    lib/Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wings
+	deleted:    lib/Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wrl
+	deleted:    lib/Crystal.3dshapes/HC49_sm.kicad_mod
+	deleted:    lib/Crystal.3dshapes/crystal_hc-49-smd.wrl
+	deleted:    lib/ESP8266.3dshapes/ESP-07v2-smd-16pin.kicad_mod
+	deleted:    lib/ESP8266.3dshapes/ESP-12.wrl
+	deleted:    lib/ESP8266.3dshapes/ESP8266.lib
+	deleted:    lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/LQFP-48_7x7mm_Pitch0.5mm-v2.kicad_mod
+	deleted:    lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/lqfp-48.wrl
+	deleted:    lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/stm32.lib
+	deleted:    lib/Usb_mini.3dshapes/usb_B_micro_smd-2.wrl
+	deleted:    lib/logo5.mod
+	modified:   wifi-iot-core-hw-cache.lib
+	modified:   wifi-iot-core-hw.kicad_pcb
+	modified:   wifi-iot-core-hw.pro
+	modified:   wifi-iot-core-hw.sch
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	assets/gerber/
+	assets/wifi-iot-core-hw-brd.svg
+	assets/wifi-iot-core-hw.svg
+	fp-lib-table
+	lib/C_0603.kicad_mod
+	lib/C_0603.wings
+	lib/C_0603.wrl
+	lib/Crystal_SMD_5032_4Pads.kicad_mod
+	lib/Crystal_SMD_5032_4Pads.wings
+	lib/Crystal_SMD_5032_4Pads.wrl
+	lib/ESP-07v2-smd-16pin.kicad_mod
+	lib/ESP-12.wrl
+	lib/ESP8266.lib
+	lib/HC49_smd.kicad_mod
+	lib/HC49_smd.wings
+	lib/HC49_smd.wrl
+	lib/LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.kicad_mod
+	lib/LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.wings
+	lib/LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.wrl
+	lib/Micro_usb_B_smd.kicad_mod
+	lib/Micro_usb_B_smd.wings
+	lib/Micro_usb_B_smd.wrl
+	lib/MountingHole_2.5mm.kicad_mod
+	lib/MountingHole_2mm.kicad_mod
+	lib/R_0603.kicad_mod
+	lib/R_0603.wings
+	lib/R_0603.wrl
+	lib/SW_SPST_B3U-1000P-B.kicad_mod
+	lib/SW_SPST_B3U-1000P-B.wings
+	lib/SW_SPST_B3U-1000P-B.wrl
+	lib/crystal_smd_32.768_2Pin.kicad_mod
+	lib/crystal_smd_32.768_2Pin.wings
+	lib/crystal_smd_32.768_2Pin.wrl
+	lib/logo5.kicad_mod
+
+no changes added to commit (use "git add" and/or "git commit -a")
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ giet add .
+No command 'giet' found, did you mean:
+ Command 'git' from package 'git' (main)
+ Command 'gift' from package 'gnuift' (universe)
+ Command 'gist' from package 'yorick' (universe)
+ Command 'diet' from package 'dietlibc-dev' (universe)
+giet: command not found
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git add .
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git commit -m "Fix Schematic & PCB"
+[master b8fcedf] Fix Schematic & PCB
+g 46 files changed, 129297 insertions(+), 55859 deletions(-)
+ delete mode 100644 assets/gerber.zip
+ create mode 100644 assets/gerber/wifi-iot-core-hw-brd.svg
+ create mode 100644 assets/gerber/wifi-iot-core-hw.svg
+ create mode 100644 assets/wifi-iot-core-hw-brd.svg
+ create mode 100644 assets/wifi-iot-core-hw.svg
+ create mode 100644 fp-lib-table
+ delete mode 100644 lib/Buttons_Switches_SMD.3dshapes/device.lib
+ create mode 100644 lib/C_0603.kicad_mod
+ create mode 100644 lib/C_0603.wings
+ create mode 100644 lib/C_0603.wrl
+ delete mode 100644 lib/Crystal.3dshapes/HC49_sm.kicad_mod
+ delete mode 100755 lib/Crystal.3dshapes/crystal_hc-49-smd.wrl
+ create mode 100644 lib/Crystal_SMD_5032_4Pads.kicad_mod
+ create mode 100644 lib/Crystal_SMD_5032_4Pads.wings
+ create mode 100755 lib/Crystal_SMD_5032_4Pads.wrl
+ rename lib/{ESP8266.3dshapes => }/ESP-07v2-smd-16pin.kicad_mod (100%)
+ rename lib/{ESP8266.3dshapes => }/ESP-12.wrl (100%)
+ rename lib/{ESP8266.3dshapes => }/ESP8266.lib (100%)
+ create mode 100644 lib/HC49_smd.kicad_mod
+ create mode 100644 lib/HC49_smd.wings
+ create mode 100644 lib/HC49_smd.wrl
+ delete mode 100644 lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/LQFP-48_7x7mm_Pitch0.5mm-v2.kicad_mod
+ delete mode 100644 lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/stm32.lib
+ create mode 100644 lib/LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.kicad_mod
+ create mode 100644 lib/LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.wings
+ rename lib/{Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/lqfp-48.wrl => LQFP-48_Pin1.7x0.3mm_Pitch0.5mm.wrl} (100%)
+ create mode 100644 lib/Micro_usb_B_smd.kicad_mod
+ create mode 100644 lib/Micro_usb_B_smd.wings
+ rename lib/{Usb_mini.3dshapes/usb_B_micro_smd-2.wrl => Micro_usb_B_smd.wrl} (100%)
+ create mode 100644 lib/MountingHole_2.5mm.kicad_mod
+ create mode 100644 lib/MountingHole_2mm.kicad_mod
+ create mode 100644 lib/R_0603.kicad_mod
+ create mode 100644 lib/R_0603.wings
+ create mode 100644 lib/R_0603.wrl
+ create mode 100644 lib/SW_SPST_B3U-1000P-B.kicad_mod
+ rename lib/{Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wings => SW_SPST_B3U-1000P-B.wings} (100%)
+ rename lib/{Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wrl => SW_SPST_B3U-1000P-B.wrl} (100%)
+ create mode 100644 lib/crystal_smd_32.768_2Pin.kicad_mod
+ create mode 100644 lib/crystal_smd_32.768_2Pin.wings
+ create mode 100755 lib/crystal_smd_32.768_2Pin.wrl
+ create mode 100644 lib/logo5.kicad_mod
+ delete mode 100644 lib/logo5.mod
+ rewrite wifi-iot-core-hw.kicad_pcb (85%)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git remote -v
+origin	git@github.com:trinhduc/wifi-iot-core-hw.git (fetch)
+origin	git@github.com:trinhduc/wifi-iot-core-hw.git (push)
+upstream	https://github.com/genuine-engineering/wifi-iot-core-hw.git (fetch)
+upstream	https://github.com/genuine-engineering/wifi-iot-core-hw.git (push)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ 
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git pull upstream
+gietYou asked to pull from the remote 'upstream', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git branch 
+* master
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git push --all
+Counting objects: 37, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (37/37), 405.97 KiB | 0 bytes/s, done.
+Total 37 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas: 100% (10/10), completed with 5 local objects.
+To git@github.com:trinhduc/wifi-iot-core-hw.git
+   177253d..b8fcedf  master -> master
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ ls
+assets                                wifi-iot-core-hw-cache.lib
+_autosave-wifi-iot-core-hw.kicad_pcb  wifi-iot-core-hw.kicad_pcb
+fp-lib-table                          wifi-iot-core-hw.kicad_pcb-bak
+lib                                   wifi-iot-core-hw.lib
+README.md                             wifi-iot-core-hw.net
+README.md~                            wifi-iot-core-hw.pro
+wifi-iot-core-hw.bak                  wifi-iot-core-hw.sch
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ rm fp-lib-table
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    fp-lib-table
+
+no changes added to commit (use "git add" and/or "git commit -a")
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git pull
+remote: Counting objects: 2, done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 2 (delta 1), reused 2 (delta 1), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From github.com:trinhduc/wifi-iot-core-hw
+   b8fcedf..915f0c8  master     -> origin/master
+Updating b8fcedf..915f0c8
+Fast-forward
+ fp-lib-table | 3 ---
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 fp-lib-table
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git remote -v
+origin	git@github.com:trinhduc/wifi-iot-core-hw.git (fetch)
+origin	git@github.com:trinhduc/wifi-iot-core-hw.git (push)
+upstream	https://github.com/genuine-engineering/wifi-iot-core-hw.git (fetch)
+upstream	https://github.com/genuine-engineering/wifi-iot-core-hw.git (push)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git pull upstream
+remote: Counting objects: 2, done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 2 (delta 1), reused 2 (delta 1), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From https://github.com/genuine-engineering/wifi-iot-core-hw
+   a958ae2..5ff1179  master     -> upstream/master
+You asked to pull from the remote 'upstream', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git merge upstream/masterMerge made by the 'recursive' strategy.
+ README.md | 26 ++++++++++++++------------
+ 1 file changed, 14 insertions(+), 12 deletions(-)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git commit -m "update from upstream"
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git push --all
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.85 KiB | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To git@github.com:trinhduc/wifi-iot-core-hw.git
+   915f0c8..28ab3f9  master -> master
+
+Unpacking objects: 100% (1/1), done.
+From https://github.com/genuine-engineering/wifi-iot-core-hw
+   5ff1179..76d7e9f  master     -> upstream/master
+You asked to pull from the remote 'upstream', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+
+
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git merge upstream/master
+Updating 28ab3f9..76d7e9f
+Fast-forward
+
+
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git push --all
+Counting objects: 1, done.
+Writing objects: 100% (1/1), 267 bytes | 0 bytes/s, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To git@github.com:trinhduc/wifi-iot-core-hw.git
+   28ab3f9..76d7e9f  master -> master
+
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   wifi-iot-core-hw.kicad_pcb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git add .
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git commit -m "resolve #10"
+[master bcc61dc] resolve #10
+ 1 file changed, 1460 insertions(+), 1187 deletions(-)
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ git push --all
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 21.14 KiB | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To git@github.com:trinhduc/wifi-iot-core-hw.git
+   76d7e9f..bcc61dc  master -> master
+trinhduc@trinhduc-HP-ubuntu:~/2016/8/wifi-iot-core-hw$ 
