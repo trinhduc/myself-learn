@@ -1,1 +1,20 @@
 https://blog.udemy.com/embedded-c-tutorial/
+===========================================================
+book : 	clean code
+		maintainable JavaScript
+		Patterns of Enterprise Application Architecture
+
+==========================================================
+- If you want to use the I/O library you must include <stdio.h>
+
+- The type of the function is void, its name is show_message. 
+	The parentheses() following the function name are needed to 
+	let the compiler know that at this point we are talking about a function 
+	and not something else.
+- The most important thing about main is that it is the first function to be
+called
+
+or example, 5/2 gives 2, 5/3 gives 1. 
+			5%2 gives 1, 5%3 gives 2
+
+- an understanding of form, style, elegance and the poetry of a well written program
