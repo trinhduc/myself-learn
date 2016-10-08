@@ -4,3 +4,19 @@ http://askubuntu.com/questions/377778/how-to-add-users-to-vboxusers
 
 
 sudo usermod -a -G vboxsf your_user_name
+
+
+
+--------------------------------------------------------------------
+==================install virtualbox 5.1============================
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+
+
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+
+
+sudo apt update
+
+
+sudo apt install virtualbox-5.1
+
