@@ -5,3 +5,15 @@ http://www.tldp.org/guides.html
 
 
 http://www.makeuseof.com/tag/4-ways-teach-terminal-commands-linux-si/
+============================================================================================
+
+
+dmesg | grep tty
+
+setserial -g /dev/ttyS[0123]
+	Output:
+
+	/dev/ttyS0, UART: 16550A, Port: 0x03f8, IRQ: 4
+	/dev/ttyS1, UART: 16550A, Port: 0x1020, IRQ: 18
+	/dev/ttyS2, UART: unknown, Port: 0x03e8, IRQ: 4
+	/dev/ttyS3, UART: unknown, Port: 0x02e8, IRQ: 3
