@@ -88,7 +88,7 @@ wifi.setmode(wifi.STATION)
 wifi.sta.config("FPT Telecom-B556","banam66518")
 print(wifi.sta.getip())
 
-python home/trinhduc/Desktop/test/luatool/luatool/luatool.py --port /dev/ttyUSB0 --src /home/trinhduc/Desktop/test/init.lua --dest /home/trinhduc/Desktop/test/in
+python luatool/luatool/luatool.py --port /dev/ttyUSB0 --src init.lua --dest in
 it.lua --restart
 
 
@@ -96,3 +96,5 @@ wifi.setmode(wifi.STATION)
 wifi.sta.config("mywifi","mypass")
 
 
+python home/trinhduc/Desktop/test/luatool/luatool/luatool.py --port /dev/ttyUSB0 --src /home/trinhduc/Desktop/test/init.lua --dest /home/trinhduc/Desktop/test/in
+it.lua --restart
