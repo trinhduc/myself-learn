@@ -1,0 +1,91 @@
+Hướng dẫn này thực hiện trên Ubuntu 16.04 64bit
+
+# Cài đặt Arduino IDE
+
+- Vào trang [https://www.arduino.cc/en/Main/OldSoftwareReleases#previous](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) để tải phần mền. Bản hoàn thiện hiện tại ở thời điểm này là 1.6.11
+
+- Di chuyển đến thư mục chứa phần mềm Arduino IDE đã tải được. Ở đây tôi tải về ở trong thu mục Downloads. Mở cửa sổ **terminal** và thực hiện lệnh sau
+
+`cd ~/Downloads`
+
+- Sau khi đến thư mục, ta tiến hành giải nén với câu lệnh 
+
+`tar -xvf arduino-1.6.11-*.tar.xz`
+
+- Đưa thư mục vửa giải nén đến thư mục **/opt/** để có dùng **global** (là sao nhỉ, tại sao phải làm thế này ? Tôi sẽ tìm hiểu và giải đáp các bạn ) với lệnh
+
+`sudo mv arduino-1.6.11 /opt`
+
+- Vào thư mục arduino-1.6.11
+
+`cd /opt/arduino-1.6.6/`
+
+- Cho quyền để install.sh trong thư mục arduino-1.6.11 có thể cài đặt
+
+`chmod +x install.sh`
+
+- Cuối cùng cài đặt với lệnh
+
+`./install.sh`
+
+Nếu nhận được dòng tin **Adding desktop shortcut, menu item and file associations for Arduino IDE... done!** là bạn đã cài đặt thành công.
+
+# Cài đặt với Boards Manager [hướng dẫn lấy từ đây](https://esp8266.vn/arduino/basic/install/)
+Bạn cần phải kết nối internet nhé!
+
+- Mở chương trình Arduino chọn **File** và tick vào **Preferences**.
+
+- Cửa sổ **Preferences** xuất hiện, copy đường dẫn bên dưới
+
+`http://arduino.esp8266.com/stable/ackage_esp8266com_index.json`
+
+vào **Additional Board Manager URLs**. Bạn có thể thêm nhiều URL, cách nhau bằng dấu phẩy.
+
+- Tiếp tục chọn **Tools** và tick vào **Boards Manager** (hoặc là thấy dòng nào bắt đầu bằng **Boards**). Lúc này chỉ việc tìm và chọn esp8266 platform đang dùng.
+
+
+# Viết chương trình đầu tiên
+
+- Chương trình đầu tiên là mình sẽ điều khiển 2 led (hoặc 2 relay) tắt 1giây, mở 1giây. [lấy từ đây](http://arduino-info.wikispaces.com/ArduinoPower)
+
+``
+#define relay_on 0
+#define relay_off 1
+
+#define relay_1 4
+#define relay_2 5
+
+void setup() /****put your setup code here, to run once:****/
+{
+  //-----( Initialize Pins so relays are inactive at reset )------
+  digitalWrite(relay_1, relay_off);
+  digitalWrite(relay_2, relay_off);
+
+  //-----( set pins as outputs )-----
+  pinMode(relay_1, OUTPUT);
+  pinMode(relay_2, OUTPUT);
+  delay(4000);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(relay_1, relay_on);  // set the Relay ON
+  //delay(1000);                      // wait for a second
+  digitalWrite(relay_2, relay_on);  // set the Relay ON
+  delay(1000);                      // wait for a second
+  digitalWrite(relay_1, relay_off); // set the Relay OFF
+  //delay(1000);                      // wait for a second
+  digitalWrite(relay_2, relay_off); // set the Relay OFF
+  delay(1000);                      // wait for a second
+}
+``
+
+- Sau khi thực hiện xong chương trình trên, lưu chương trình lại và tiến hành compile với nút check bên dưới chữ **File** hoặc vào **Sketch** và chọn **Verify/Compile**
+
+- Sau khi biên dich xong tiến hành upload chương trình vào chip bằng cách chọn biểu tượng kế bên dấu check để compile chương trình lúc nãy hoặc **Sketch** và chọn **Upload**.
+
+- **CHÚ Ý** Nếu trong quá trình upload chương trình mà phầm mềm báo không tìm thấy **/dev/ttyUSB0** thì vào /dev/ và thực hiện lệnh
+
+`sudo chmod 666 /dev/ttyUSB0`
+
+[Tham khảo thêm](https://bbs.archlinux.org/viewtopic.php?id=122180)
