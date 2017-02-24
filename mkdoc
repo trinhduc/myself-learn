@@ -40,3 +40,82 @@ INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /home/trinhduc/2016/8/wifi-iot-core/site 
 INFO    -  Copying '/home/trinhduc/2016/8/wifi-iot-core/site' to 'gh-pages' branch and pushing to GitHub. 
 INFO    -  Your documentation should shortly be available at: http://trinhduc.github.io/wifi-iot-core 
+
+
+==============================================================
+
+ERROR : mkdocs serve
+
+INFO    -  Building documentation... 
+ERROR   -  Error building page index.md 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/markdown/__init__.py", line 231, in build_extension
+    module = importlib.import_module(ext_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'custom_span_class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/markdown/__init__.py", line 246, in build_extension
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'markdown.extensions.custom_span_class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/mkdocs", line 9, in <module>
+    load_entry_point('mkdocs==0.14.0', 'console_scripts', 'mkdocs')()
+  File "/usr/lib/python3/dist-packages/click/core.py", line 716, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 696, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1060, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/lib/python3/dist-packages/click/core.py", line 889, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 534, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/mkdocs/cli.py", line 112, in serve_command
+    livereload=livereload,
+  File "/usr/lib/python3/dist-packages/mkdocs/serve.py", line 78, in serve
+    config = builder()
+  File "/usr/lib/python3/dist-packages/mkdocs/serve.py", line 74, in builder
+    build(config, live_server=True)
+  File "/usr/lib/python3/dist-packages/mkdocs/build.py", line 299, in build
+    build_pages(config)
+  File "/usr/lib/python3/dist-packages/mkdocs/build.py", line 259, in build_pages
+    dump_json)
+  File "/usr/lib/python3/dist-packages/mkdocs/build.py", line 180, in _build_page
+    site_navigation=site_navigation
+  File "/usr/lib/python3/dist-packages/mkdocs/build.py", line 35, in convert_markdown
+    extension_configs=config['mdx_configs']
+  File "/usr/lib/python3/dist-packages/mkdocs/utils/__init__.py", line 323, in convert_markdown
+    extension_configs=extension_configs or {}
+  File "/usr/lib/python3/dist-packages/markdown/__init__.py", line 159, in __init__
+    configs=kwargs.get('extension_configs', {}))
+  File "/usr/lib/python3/dist-packages/markdown/__init__.py", line 185, in registerExtensions
+    ext = self.build_extension(ext, configs.get(ext, {}))
+  File "/usr/lib/python3/dist-packages/markdown/__init__.py", line 264, in build_extension
+    module = importlib.import_module(module_name_old_style)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'mdx_custom_span_class'
+
+
+
+# fixe the problem :
+
+python -m mkdocs serve

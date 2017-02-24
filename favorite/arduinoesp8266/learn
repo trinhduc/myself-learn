@@ -89,3 +89,5 @@ void loop() {
 `sudo chmod 666 /dev/ttyUSB0`
 
 [Tham khảo thêm](https://bbs.archlinux.org/viewtopic.php?id=122180)
+
+
