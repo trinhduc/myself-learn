@@ -1,0 +1,115 @@
+Problem with myboss switch new server git.nanochip
+
+===============================================
+My Boss talk :
+sudo nano ~/.ssh/khown_hosts
+
+
+remove dòng có git.nanochip.vn
+rồi push lại
+đổi host nên cái finger print nó sai
+===============================================
+My Boss talk about imformation :
+sudo nano rồi remove đúng 1 dòng
+
+ 11:00 AM
+a chỉ trong facebook rồi sao ko làm theo?
+
+11:00 AM
+còn rm -rf nữa mới chịu
+
+11:01 AM
+do account của e có quyền ghi vào thư mục ~/.ssh
+
+11:01 AM
+nên ko cần dùng sudo cũng được
+
+11:01 AM
+lỡ sudo rồi thì chown trinhduc:trinhduc -R ~/.ssh
+
+11:02 AM
+để set quyền access mặc định về cho e
+
+11:02 AM
+lúc đó các lệnh đọc ghi ko cần sudo có thể thực thi được 
+
+tuanpm
+11:02 AM         
+đây là hậu quản của việc sài linux cả năm rồi mà ko hề hiểu các cơ chế vận hành, owner file system
+
+trinhduc
+11:05 AM         
+mới đầu thực hiện sudo nano ~/.ssh/khown_hosts
+
+11:05 AM
+nó hiện ra terminal trống trơn ad..
+
+tuanpm
+11:05 AM         
+vì a làm với root
+còn e thì ko
+khi e có sudo đằng trước
+
+trinhduc
+11:05 AM         
+có sudo mà
+
+tuanpm
+11:06 AM         
+thì ~/ sẽ là /home/root chứ không phải /home/trinhduc
+
+cái ~/ là thư mục gốc của user hiện hành
+
+trinhduc
+11:07 AM         
+          
+~/  em hiểu mà nó tự tìm đến nơi chứa cái tên file/folder bên sau.
+
+tuanpm
+11:07 AM
+
+Commented on tuanpm's message: đây là hậu quản của việc sài linux cả năm rồi mà ko hề hiểu các cơ chế vận hành, owner file system
+
+phải rồi
+
+tuanpm
+11:08 AM         
+
+vì e dùng linux, nhưng không hề thắc mắc cái gì mình không hiểu, và ko tìm hiểu các vấn đề đó thấu đáo          
+          
+nếu e cứ tiếp tục cách tiếp cận kiến thức như vậy, còn lâu mới tiến bộ được
+
+trinhduc
+11:08 AM         
+
+da.
+
+tuanpm
+11:10 AM         
+         
+file ~\.ssh\know_hosts lưu trữ các finger print khi kết nối secure đến bất kỳ host nào
+
+tương ứng với mỗi user 
+
+mỗi host sẽ phát sinh 1 finger-print khác biệt                
+          
+vì vậy khi a đổi host, e kết nối tới thì finger print ko còn đúng nữa
+
+e cần phải xóa cái finger print cũ
+
+để nó phát sinh finger print mới
+
+============================================================
+
+Sau khi xóa các nọi dung trong  known_hosts với command : sudo nano ~/.ssh/khown_hosts
+
+git clone git@github.com:iotmakervn/iot-wifi-uno-hw.git
+Cloning into 'iot-wifi-uno-hw'...
+The authenticity of host 'github.com (192.30.255.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/trinhduc/.ssh/known_hosts).
+remote: Counting objects: 295, done.
+remote: Total 295 (delta 0), reused 0 (delta 0), pack-reused 295
+Receiving objects: 100% (295/295), 10.63 MiB | 319.00 KiB/s, done.
+Resolving deltas: 100% (142/142), done.

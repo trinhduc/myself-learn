@@ -1,0 +1,5 @@
+test OLED
+- https://github.com/squix78/esp8266-oled-ssd1306
+- vào địa chỉ trên down file .zip về
+- add vào **Sketch** ==> **include Library** ==> **add .ZIP library**
+- Tìm code mẫu trong example tương ứng với file .zip đã add ở trên.

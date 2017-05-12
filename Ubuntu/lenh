@@ -40,3 +40,8 @@ sudo apt-get install nautilus-image-converter
 ----------------------------------------------------------------------------
 ----------------------------xoa folder over root----------------------------
 sudo gksu nautilus
+
+====================================
+----------------install software with file .deb---------------------------
+
+sudo dpkg -i YourDebPackage.deb
